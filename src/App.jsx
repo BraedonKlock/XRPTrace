@@ -11,8 +11,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<HomePage/>} />
-        <Route path="/transaction-history" element={<TransactionGraph/>} />
+        <Route path="/XRPTrace/" element={<HomePage/>} />
+        <Route path="/XRPTrace/transaction-history" element={<TransactionGraph/>} />
       </Routes>
       <Footer />
     </>
