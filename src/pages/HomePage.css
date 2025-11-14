@@ -5,14 +5,25 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vh;
+    padding: 3vh 2vw 0 2vw;
 }
 #raddress-input {
-    width: 75%;
+    width: 90%;
     text-align: center;
+    opacity: .9;
+    border: none;
+    border-radius: .3rem;
+}
+button {
+    width: 50%;
+    border: none;
+    border-radius: .3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .9;
 }
 
-main h1 {
+#balance-display {
+    margin-top: 2vh;
     color: white;
 }
 main h4, #error {
@@ -20,8 +31,45 @@ main h4, #error {
     text-align: center;
 }
 #raddress-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
     width: 100%;
 }
-#test {
+
+#transaction-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 100%;
+    margin: 0;
+}
+.transaction-card {
+    display: flex;
+    flex-direction: column;
+    color: #00FF41;
+    border-radius: .5rem;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+    opacity: 1;
+    overflow-wrap: break-word;
+}
+.link {
+    text-decoration: none;
+}
+h5 {
+    margin: 1vh;
+}
+.labels {
     color: white;
+}
+#raddress {
+    color: #00FF41;
+    margin: 5vh 0 0 0;
+}
+#message {
+    text-align: center;
+    color: #00FF41;
+    margin: 0;
 }

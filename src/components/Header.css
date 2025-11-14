@@ -1,7 +1,6 @@
 header {
     z-index: 1000;  /* stays above everything */
     display: flex;
-    flex-direction: row;
     width: 100%;
     position: sticky;
     top: 0;
@@ -10,7 +9,7 @@ header {
     background-color: black;
 }
 #header-image {
-    width: 25%;
+    width: 100%;
 }
 #header-text {
     display: flex;
@@ -20,4 +19,10 @@ header {
 }
 header h1 {
     color: white;
+    margin: 0;
+}
+#image-link {
+    width: 25%;
+    text-decoration: 0;
+    -webkit-tap-highlight-color: transparent;
 }
