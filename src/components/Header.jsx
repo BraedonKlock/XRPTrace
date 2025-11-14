@@ -6,9 +6,6 @@ export default function Header() {
             <Link to="/" id="image-link">
                 <img id="header-image" src="./images/home.png"></img>
             </Link>
-            <div id="header-text">
-                <h1>XRP Trace</h1>
-            </div>
         </header>
     )
 }

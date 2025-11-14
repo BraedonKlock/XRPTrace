@@ -1,6 +1,6 @@
 import { Client } from "xrpl";
 
-const client = new Client("wss://s.altnet.rippletest.net:51233");
+const client = new Client("wss://s1.ripple.com");
 
 export async function getAccountTransactions(wallet) {
     await client.connect();
