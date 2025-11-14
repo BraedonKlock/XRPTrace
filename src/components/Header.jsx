@@ -3,7 +3,7 @@ import "./Header.css"
 export default function Header() {
     return (
         <header>
-            <Link to="/XRPTrace/" id="image-link">
+            <Link to="/" id="image-link">
                 <img id="header-image" src="./images/home.png"></img>
             </Link>
         </header>
