@@ -39,11 +39,6 @@
     font-size: 0.85rem;
 }
 
-.graph-controls button:hover {
-    background: #111827;
-    border-color: #fe9517;
-}
-
 .graph-zoom-label {
     font-size: 0.85rem;
     color: #e5e7eb;
@@ -56,18 +51,16 @@
     border-radius: 0.75rem;
     border: 1px solid #1f2937;
     background: #020617;
-    overflow: auto; /* scrolls when tree gets big */
+    overflow: auto;
     padding: 1vh 1vw 1vh 1vw;
     box-sizing: border-box;
 }
 
-/* Tree container (this is what we scale/zoom) */
 .graph-tree {
-  min-width: 600px; /* so layout has room */
+    min-width: 600px;
 }
 
 /* ---------- Tree layout ---------- */
-
 .tree-node {
     display: inline-flex;
     flex-direction: column;
@@ -85,13 +78,12 @@
 }
 
 .tree-node-card:hover {
-    border-color: #fe9517;
+    border-color: #00FF41;
     background: #020922;
 }
 
 .tree-address {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-        "Liberation Mono", "Courier New", monospace;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,"Liberation Mono", "Courier New", monospace;
     font-size: 0.8rem;
     color: #e5e7eb;
     word-break: break-all;
@@ -117,7 +109,7 @@
     margin: 0.35rem 0;
 }
 
-/* optional little horizontal connector line */
+/* little horizontal connector line */
 .tree-branch::before {
     content: "";
     position: absolute;
@@ -126,4 +118,7 @@
     width: 1.2rem;
     height: 1px;
     background: rgba(148, 163, 184, 0.45);
+}
+.tree-node-card {
+    cursor: pointer;
 }
