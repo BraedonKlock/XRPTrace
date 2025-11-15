@@ -144,7 +144,7 @@ export default function HomePage() {
             <section id="transaction-card-container">
                 {transactions.length > 0 ? (
                     transactions.map(([hash, destination, amount, date], index) => (
-                        <TransactionCard key={`${destination}-${date}-${index}`} hash={hash}destination={destination} amount={amount} date={date} />
+                        <TransactionCard key={`${destination}-${date}-${index}`} hash={hash} destination={destination} amount={amount} date={date} />
                     ))
                 ) : (
                     <h1 id="message">{message}</h1>
