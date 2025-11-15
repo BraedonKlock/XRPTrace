@@ -1,3 +1,3 @@
 # XRPTrace
 This program provides a visual tool for tracking XRP flows across XRPL accounts to help investigate stolen or mixed funds.
-This prgram is not finsihed.
+This program is not finsihed.
