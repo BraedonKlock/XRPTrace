@@ -1,9 +1,9 @@
 import { Client } from "xrpl";
 import { dropsToXrp } from "xrpl";
 
-const client = new Client("wss://s1.ripple.com");
 
 export async function getWallet(wallet) {
+    const client = new Client("wss://s1.ripple.com");
     await client.connect();
 
     const walletDetails = { balance: 0 , transactions: [] }
@@ -11,7 +11,6 @@ export async function getWallet(wallet) {
         walletDetails.balance = await client.getXrpBalance(wallet.raddress);
         
         walletDetails.transactions = await client.request({
-            "id": 2,
             "command": "account_tx",
             "account": wallet.raddress,
             "ledger_index_min": -1,
