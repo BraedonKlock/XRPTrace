@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
-import TransactionGraph from "./pages/TransactionGraphPage";
+import TransactionTree from "./pages/TransactionTreePage";
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage/>} />
-        <Route path="/transaction-history" element={<TransactionGraph/>} />
+        <Route path="/transaction-history" element={<TransactionTree/>} />
       </Routes>
       <Footer />
     </>
