@@ -5,7 +5,7 @@
 
 - Designed an interactive, graph-style UI so investigators can visually trace stolen XRP as it moves through related wallets over time.
 
-* Right now there is a limit of 300 nodes and a max depth of 4 to prevent the browser from crashing.
+Right now there is a limit of 300 nodes and a max depth of 4 to prevent the browser from crashing.
 
 ## ToDO: 
 - Set up node JS backend and move xrpl requests and tree to backend to build the full tree with every transaction (no limits).
