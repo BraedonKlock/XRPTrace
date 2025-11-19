@@ -1,17 +1,15 @@
 # XRPTrace
-✅ React-based web app that lets users enter an XRP address, fetch its on-chain history, and inspect outgoing payments using XRPL APIs.
 
-✅ Implemented a depth-first traversal over XRPL account_tx data to follow funds across multiple hops and build a tree of all downstream addresses involved in potential mixing.
+XRPTrace is a React-based visual explorer for tracing XRP flows across the XRPL – with a focus on following **stolen or suspicious funds** through attacker mixing paths.
 
-✅ Designed an interactive, graph-style UI so investigators can visually trace stolen XRP as it moves through related wallets over time.
+✅ Users enter an XRP r-address, fetch its on-chain history, and inspect outgoing payments using XRPL APIs.
 
-⚠️ Right now there is a limit of 300 nodes and a max depth of 4 to prevent the browser from crashing.
+✅ From a selected transaction, XRPTrace walks the destination address’s outgoing payments and recursively follows their children, building a **breadth-first transaction tree** of downstream addresses involved in the flow.
 
-## ToDO: 
-- Set up node JS backend and move xrpl requests and tree to backend to build the full tree with every transaction (no limits).
+✅ The interactive, graph-style UI lets investigators visually follow the money hop-by-hop, and see which wallets receive funds next.
 
-- Allow users to save and upload the tree for quick loading.
+⚠️ Right now there are **temporary depth / node limits** in place to avoid hammering public XRPL nodes and crashing the browser.
 
 ## 🎥 Watch Demo
 
-[▶️ To view the video: Click here! then download the RAW file!  ](XRPTraceDemo.mp4)
+[▶️ To view the video: Click here! then download the RAW file!](XRPTraceDemo.mp4)
