@@ -14,7 +14,7 @@ export default function TransactionGraphPage() {
     const [zoom, setZoom] = useState(1);
     const [selectedNode, setSelectedNode] = useState(null);
 
-    // this holds the DFS-built tree
+    // this holds the BFS-built tree
     const [tree, setTree] = useState(null);
     const [loadingTree, setLoadingTree] = useState(false);
     const [treeError, setTreeError] = useState("");

@@ -11,8 +11,10 @@ main {
     width: 90%;
     text-align: center;
     opacity: .9;
-    border: none;
+    border: solid white .01rem;
     border-radius: .3rem;
+    background-color: black;
+    color: white;
 }
 button {
     width: 50%;
