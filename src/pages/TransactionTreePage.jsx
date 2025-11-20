@@ -24,7 +24,7 @@ export default function TransactionGraphPage() {
     }
 
     function handleZoomOut() {
-        setZoom((z) => Math.max(z - 0.25, 0.5));
+        setZoom((z) => Math.max(z - 0.25, 0.25));
     }
 
     function handleResetZoom() {
