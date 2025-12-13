@@ -12,6 +12,9 @@ XRPTrace is a React-based visual explorer for tracing XRP flows across the XRPL 
 
 ⚠️ Right now there are **temporary depth / node limits** in place to avoid hammering public XRPL nodes and crashing the browser.
 
+## Visit Site 
+https://braedonklock.github.io/XRPTrace/
+
 ## 🎥 Watch Demo
 
 [▶️ To view the video: Click here! then download the RAW file!](XRPTraceDemo.mp4)
