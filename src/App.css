@@ -137,6 +137,11 @@
 
 .stat-pill.ghost {
   background: rgba(255, 255, 255, 0.04);
+  max-width: 100%;
+  white-space: normal;
+  word-break: break-all;
+  overflow-wrap: anywhere;
+  flex-wrap: wrap;
 }
 
 .labels {
